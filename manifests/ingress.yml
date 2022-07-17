@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+    name: "azkub02-c1c1"
+    labels:
+        app: "azkub02-c1c1"
+    annotations:
+        kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+    rules:
+        - host: az-space01-azkub02-c1c1.535e79ac3e86445ab5e9.centralus.aksapp.io
+          http:
+            paths:
+            - path: /
+              backend:
+                serviceName: "azkub02-c1c1"
+                servicePort: 8080
