@@ -1,4 +1,4 @@
-apiVersion: extensions/v1
+apiVersion: extensions
 kind: Ingress
 metadata:
     name: "azkub02-7c97"
