@@ -4,6 +4,7 @@
 
 trigger:
 - master
+- gcloud
 
 resources:
 - repo: self
