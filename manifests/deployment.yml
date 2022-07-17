@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "azkub02-7c97"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "azkub02-7c97"
+  template:
+    metadata:
+      labels:
+        app: "azkub02-7c97"
+    spec:
+      containers:
+        - name: "azkub02-7c97"
+          image: "az2gcloudcont.azurecr.io/azkub02"
+          ports:
+          - containerPort: 8080
