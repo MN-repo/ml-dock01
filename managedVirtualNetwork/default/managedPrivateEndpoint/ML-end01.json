@@ -1,0 +1,7 @@
+{
+	"name": "ML-end01",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/79ca1ead-be22-4036-8b59-50ccba940255/resourceGroups/bi-rs01/providers/Microsoft.MachineLearningServices/workspaces/bistore03",
+		"groupId": "amlworkspace"
+	}
+}

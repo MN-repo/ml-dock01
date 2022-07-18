@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sqlOnDemand--pipe01-synapse1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/79ca1ead-be22-4036-8b59-50ccba940255/resourceGroups/bi-rs01/providers/Microsoft.Synapse/workspaces/pipe01-synapse1",
+		"groupId": "sqlOnDemand",
+		"fqdns": [
+			"pipe01-synapse1-ondemand.3cf80317-adf7-49f1-a9f5-a4edd6f28f21.sql.azuresynapse.net"
+		]
+	}
+}

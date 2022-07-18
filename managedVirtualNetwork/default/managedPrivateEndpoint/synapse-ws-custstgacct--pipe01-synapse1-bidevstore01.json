@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-custstgacct--pipe01-synapse1-bidevstore01",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/79ca1ead-be22-4036-8b59-50ccba940255/resourceGroups/bi-rs01/providers/Microsoft.Storage/storageAccounts/bidevstore01",
+		"groupId": "dfs",
+		"fqdns": [
+			"bidevstore01.dfs.core.windows.net"
+		]
+	}
+}
