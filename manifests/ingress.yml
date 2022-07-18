@@ -1,7 +1,8 @@
-apiVersion: extensions/v1
+apiVersion: apps/v1
 kind: Ingress
 metadata:
     name: "azkub02-7c97"
+    namespace: "az-space01"
     labels:
         app: "azkub02-7c97"
     annotations:
