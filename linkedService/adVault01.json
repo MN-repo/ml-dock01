@@ -1,7 +1,9 @@
 {
 	"name": "adVault01",
 	"properties": {
-		"annotations": [],
+		"annotations": [
+			"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"
+		],
 		"type": "AzureKeyVault",
 		"typeProperties": {
 			"baseUrl": "https://ml-vault.vault.azure.net/"
